@@ -20,3 +20,40 @@ cd donuter
 ```
 python3 donuter.py -i <INPUT_FILE> [OPTIONS]
 ```
+
+---
+
+## Arguments
+```
+-i	--input	[Required] Path to the input executable or DLL	None
+-o	--output	Output payload file name	payload.bin
+-a	--arch	Target architecture: 1=x86, 2=amd64, 3=x86+amd64	3
+-b	--bypass	AMSI/WLDP bypass: 1=None, 2=Abort on fail, 3=Continue on fail	3
+-p	--params	Command line parameters to pass to the executable	"" (Empty)
+```
+
+---
+
+## Examples
+
+Basic executable conversion (defaults to `x86+x64` & output to `payload.bin`):
+```
+python3 donuter.py -i mimikatz.exe
+```
+
+Specifying architecture and output file:
+```
+python3 donuter.py -i safetykatz.exe -a 2 -o loader.bin
+```
+
+Passing command-line parameters to the executable:
+```
+python3 donuter.py -i Rubeus.exe -p "triage" -o rubeus.bin
+```
+
+![GodPotato Example](/example_usage_godpotato.png)
+
+---
+
+## ⚠️ Disclaimer
+This tool is designed for authorized red teaming, penetration testing, and security research. Don't do bad things with it. I am not responsible for what you do with this code.
