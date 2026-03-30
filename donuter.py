@@ -18,7 +18,6 @@ def main():
     print(f"    - Params: '{args.params}'")
     
     try:
-        # Pass the arguments directly into the Donut API
         shellcode = donut.create(
             file=args.input,
             arch=args.arch,
