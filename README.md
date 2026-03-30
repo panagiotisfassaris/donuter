@@ -1,4 +1,4 @@
-# donuter
+# Donuter
 A lightweight Python wrapper for Donut shellcode generator
 
 ## Installation
