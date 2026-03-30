@@ -1,7 +1,7 @@
 # donuter
 A lightweight Python wrapper for Donut shellcode generator
 
-## ⚙️ Installation
+## Installation
 
 You don't need `make` or `gcc` for this. Just grab the Python package and you're good to go.
 
@@ -15,7 +15,8 @@ cd donuter
 ```
 ---
 
-# Syntax
+## Syntax
+
 ```
 python3 donuter.py -i <INPUT_FILE> [OPTIONS]
 ```
