@@ -25,11 +25,11 @@ python3 donuter.py -i <INPUT_FILE> [OPTIONS]
 
 ## Arguments
 ```
--i	--input	[Required] Path to the input executable or DLL	None
--o	--output	Output payload file name	payload.bin
--a	--arch	Target architecture: 1=x86, 2=amd64, 3=x86+amd64	3
--b	--bypass	AMSI/WLDP bypass: 1=None, 2=Abort on fail, 3=Continue on fail	3
--p	--params	Command line parameters to pass to the executable	"" (Empty)
+-i	--input	[Required] Path to the input executable or DLL	(Default = None)
+-o	--output	Output payload file name	(Default = payload.bin)
+-a	--arch	Target architecture: 1=x86, 2=amd64, 3=x86+amd64	(Default = 3)
+-b	--bypass	AMSI/WLDP bypass: 1=None, 2=Abort on fail, 3=Continue on fail	(Default = 3)
+-p	--params	Command line parameters to pass to the executable	(Default = "")
 ```
 
 ---
