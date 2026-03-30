@@ -51,7 +51,7 @@ Passing command-line parameters to the executable:
 python3 donuter.py -i Rubeus.exe -p "triage" -o rubeus.bin
 ```
 
-![GodPotato Example](/example_usage_godpotato.png)
+![GodPotato Example](/example_usage.png)
 
 ---
 
