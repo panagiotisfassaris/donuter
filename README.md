@@ -12,3 +12,10 @@ pip3 install donut-shellcode
 # Clone this wrapper
 git clone https://github.com/panagiotisfassaris/donuter.git
 cd donuter
+
+---
+
+# Syntax
+```
+python3 donuter.py -i <INPUT_FILE> [OPTIONS]
+```
