@@ -55,5 +55,10 @@ python3 donuter.py -i Rubeus.exe -p "triage" -o rubeus.bin
 
 ---
 
+## Credits
+All credit for the actual shellcode generation, AMSI bypassing, and core engine goes to TheWover and the contributors of the original Donut project (https://github.com/thewover/donut). This repo is simply a Python CLI wrapper to make running it on (mainly) ARM/macOS environments a little smoother.
+
+---
+
 ## ⚠️ Disclaimer
 This tool is designed for authorized red teaming, penetration testing, and security research. Don't do bad things with it. I am not responsible for what you do with this code.
